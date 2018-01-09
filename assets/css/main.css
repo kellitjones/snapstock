@@ -2,12 +2,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
-/*
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -22,6 +16,20 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
+
+	#nav input[type=text] {
+    width: 15%;
+    height: 75%;
+    border: 0;
+    padding:2px;
+    font: normal 16px arial,sans-serif;
+    line-height: 23px;
+    margin-top:15px;
+    color:#0c161e;
+    background-color:#f4f4f4;
+}
+
+
 
 	body {
 		line-height: 1;
@@ -2934,7 +2942,7 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url("https://res.cloudinary.com/dnaavxlbe/image/upload/v1514457895/bannerart_cgkgmo.jpg");
+		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
