@@ -23,6 +23,20 @@
 		display: block;
 	}
 
+	#nav input[type=text] {
+    width: 15%;
+    height: 75%;
+    border: 0;
+    padding:2px;
+    font: normal 16px arial,sans-serif;
+    line-height: 23px;
+    margin-top:15px;
+    color:#0c161e;
+    background-color:#f4f4f4;
+}
+
+
+
 	body {
 		line-height: 1;
 	}
@@ -2934,7 +2948,7 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url("https://res.cloudinary.com/dnaavxlbe/image/upload/v1514457895/bannerart_cgkgmo.jpg");
+		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
